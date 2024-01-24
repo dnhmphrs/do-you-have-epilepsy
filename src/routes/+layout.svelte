@@ -32,7 +32,7 @@
 	let showShader = false;
 	let showEpilepsyWarning = true;
 	let showCompletionMessage = false;
-	const epilepsyTestDuration = 5000; // 5 seconds
+	const epilepsyTestDuration = 4000; // 5 seconds
 
 	const handleKeyPress = (event) => {
 		if (event.key === ' ') {
@@ -100,9 +100,9 @@
 	<svelte:component this={Geometry} />
 {:else if showCompletionMessage}
 	<div class="completion-message">
-		Congratulations.
+		<b>!! Congratulations. !!</b>
 		<br /><br />
-		<b>If you made it here,<br />you do not have epilepsy.</b>
+		If you made it here,<br />you do not have epilepsy.
 		<br /><br />
 		Press <b>spacebar</b> to repeat the test
 	</div>
@@ -156,8 +156,8 @@
 		font-style: italic;
 		font-weight: bold;
 		color: black;
-		text-decoration: underline 1px rgba(0, 0, 0, 1);
-		text-underline-offset: 4px;
+		/* text-decoration: underline 1px rgba(0, 0, 0, 1);
+		text-underline-offset: 4px; */
 	}
 
 	b.important {
