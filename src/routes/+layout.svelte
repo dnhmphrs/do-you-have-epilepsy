@@ -100,9 +100,11 @@
 	<svelte:component this={Geometry} />
 {:else if showCompletionMessage}
 	<div class="completion-message">
-		<b>!! Congratulations. !!</b>
-		<br /><br />
-		If you made it here,<br />you do not have epilepsy.
+		<b
+			>!! Congratulations. !!
+			<br />
+			you do not have epilepsy.</b
+		>
 		<br /><br />
 		Press <b>spacebar</b> to repeat the test
 	</div>
