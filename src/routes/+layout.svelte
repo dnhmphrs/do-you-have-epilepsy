@@ -76,8 +76,8 @@
 </script>
 
 <svelte:head>
-	<title>Der logische Aufbau der Web</title>
-	<meta name="description" content="WIP" />
+	<title>do-you-have-epilepsy.com</title>
+	<meta name="description" content="DO NOT USE IF YOU ACTUALLY HAVE EPILEPSY" />
 	<meta name="keywords" content="" />
 	<meta name="author" content="AUFBAU" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
