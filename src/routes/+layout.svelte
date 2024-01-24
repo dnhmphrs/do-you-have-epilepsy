@@ -102,10 +102,10 @@
 	<svelte:component this={Geometry} />
 {:else if showCompletionMessage}
 	<div class="completion-message">
-		<Confetti x={[-0.5, 0.5]} y={[0.25, 10]} />
-		<Confetti x={[1.5, 2.5]} y={[0.25, 10]} />
-		<Confetti x={[-0.5, -0.5]} y={[0.25, 10]} />
-		<Confetti x={[1.5, -2.5]} y={[0.25, 10]} />
+		<Confetti x={[-0.5, 0.5]} y={[0.25, 2]} />
+		<Confetti x={[1.5, 2.5]} y={[0.25, 4]} />
+		<Confetti x={[-0.5, -0.5]} y={[0.25, 5]} />
+		<Confetti x={[1.5, -2.5]} y={[0.25, 6]} />
 		<b
 			>!! Congratulations. !!
 			<br />
