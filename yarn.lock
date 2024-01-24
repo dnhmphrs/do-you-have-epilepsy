@@ -1516,6 +1516,11 @@ supports-color@^7.1.0:
   dependencies:
     has-flag "^4.0.0"
 
+svelte-confetti@^1.3.1:
+  version "1.3.1"
+  resolved "https://registry.yarnpkg.com/svelte-confetti/-/svelte-confetti-1.3.1.tgz#2dedf40ed0cd0db849079d1e4179a6a671cdd3af"
+  integrity sha512-ljpyflZZzpyByDODM7xKzbYLWZpA54fLqjire2M7Rp6/Fedx6L9+p3CmBQ2j96cZcp++4ueF5A8TYZ8f22kh9w==
+
 "svelte-eslint-parser@>=0.33.0 <1.0.0":
   version "0.33.1"
   resolved "https://registry.yarnpkg.com/svelte-eslint-parser/-/svelte-eslint-parser-0.33.1.tgz#c64dbed2fad099577429b3c39377f6b8d36e5d97"

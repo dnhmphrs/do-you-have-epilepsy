@@ -9,6 +9,8 @@
 	import { screenType, isIframe, screenSize } from '$lib/store/store';
 	import { getDeviceType, getScreenSize } from '$lib/functions/utils';
 
+	import { Confetti } from 'svelte-confetti';
+
 	export let data;
 	let Geometry;
 
@@ -100,6 +102,10 @@
 	<svelte:component this={Geometry} />
 {:else if showCompletionMessage}
 	<div class="completion-message">
+		<Confetti x={[-0.5, 0.5]} y={[0.25, 10]} />
+		<Confetti x={[1.5, 2.5]} y={[0.25, 10]} />
+		<Confetti x={[-0.5, -0.5]} y={[0.25, 10]} />
+		<Confetti x={[1.5, -2.5]} y={[0.25, 10]} />
 		<b
 			>!! Congratulations. !!
 			<br />
