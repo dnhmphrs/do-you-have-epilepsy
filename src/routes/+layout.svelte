@@ -117,7 +117,7 @@
 {/if}
 
 <style>
-	.app {
+	/* .app {
 		display: flex;
 		flex-direction: column;
 		align-items: center;
@@ -138,11 +138,12 @@
 		transform: translate(-50%, -50%);
 		padding: 10px;
 		font-size: 12px;
-	}
+	} */
 
 	.epilepsy-warning,
 	.completion-message {
 		position: absolute;
+		min-width: 340px;
 		top: 50%;
 		left: 50%;
 		transform: translate(-50%, -50%);
@@ -173,14 +174,11 @@
 		text-underline-offset: 4px;
 	}
 
-	main {
-		flex: 1;
-		display: flex;
-		flex-direction: column;
-		align-items: center;
-		justify-content: center;
-		padding: 1rem;
-		width: 100%;
-		height: 100%;
+	@media (max-width: 768px) {
+		.epilepsy-warning,
+		.completion-message {
+			min-width: 90%;
+		}
 	}
+
 </style>
